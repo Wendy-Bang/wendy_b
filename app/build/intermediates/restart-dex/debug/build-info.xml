@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="29170418860656"
+    token="4285367204898217641" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="D:\androidDev\SampleApplication\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="26524656670886" >
+        <artifact
+            location="D:\androidDev\SampleApplication\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="28532290145998" >
+        <artifact
+            location="D:\androidDev\SampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="28601452492950"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\androidDev\SampleApplication\app\build\intermediates\builds\debug\28601452492950\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="28826883859425"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\androidDev\SampleApplication\app\build\intermediates\builds\debug\28826883859425\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="29170418860656" >
+        <artifact
+            location="D:\androidDev\SampleApplication\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>
